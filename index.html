@@ -5,12 +5,13 @@
     <title>HTML&CSS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link re="stylesheet" href="styls.css">
 </head>
 
-<body style="margin: 0; padding: 0;">
+<body>
 
     <!-- Header -->
-    <header style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
+    <header>
         <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
         <div>
             <a href="#vasara">Vasara</a>
@@ -22,18 +23,29 @@
         <img src="resources/Pavasaris.jpg" alt="Pavasaris">
         <div>
             <h1>Pavasaris</h1>
+            <p>Laba sadarbības prakse ir izveidojusies ar Līgatnes novada Kultūras un tūrisma centru, radot papildus
+                piedāvājumu apmeklētājiem. No 2016. gada tiek organizēti dažādi tematiskie pasākumi Līgatnes dabas takās
+                ar mērķi piesaistīt apmeklētājus un informēt par Līgatnes dabas takām. </p>
         </div>
         <div id="vasara">
             <img src="resources/Vasara.jpg" alt="Vasara">
             <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
+            <p>Lai palielinātu apmeklētāju skaitu, Līgatnes dabas taku galvenais uzdevums ir apmeklētāju labsajūtas
+                nodrošināšana visā apmeklējuma laikā no biļetes iegādes līdz pat apmeklējuma beigām, tādējādi radot
+                pozitīvu pieredzi un vēlmi apmeklēt Līgatnes dabas takas atkārtoti.</p>
         </div>
 
-        <div id="plava" style="display: flex; flex-direction: row;">
-            <div style="display: block;">
-                <img style="display: block; width:100%" src="resources/Plava.jpg" alt="Plava">
+        <div id="plava">
+            <div class="d-block">
+                <img class="d-block w-100" src="resources/Plava.jpg" alt="Plava">
             </div>
-            <div style="display: block;">
+            <div class="d-block">
                 <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
+                <p>Lai nodrošinātu veiksmīgu LDT darbību ilgtermiņā, ir jāpiesaista apmeklētāji. Svarīgi pievērst
+                    sabiedrības uzmanību, sniedzot informāciju, ka LDT apmeklējums sagādā prieku, dzīvnieki ir
+                    lieliskos apstākļos un labi kopti, un katrs tiek gaidīts. Augsts apmeklētāju skaits rada
+                    iespēju, ka informācija un izglītība, ko vēlamies nodot ar mērķi veicināt sabiedrības izpratni
+                    par dabas un cilvēka mijiedarbību, sasniegs mērķauditoriju. </p>
             </div>
         </div>
 
@@ -50,7 +62,28 @@
             <p>Pievieno karti.</p>
             <p>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</p>
         </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9979.109862821077!2d25.03016447197708!3d57.23409265232892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e95962febb3a5f%3A0x604e78afdc571a30!2sZeit!5e0!3m2!1slv!2slv!4v1690520474438!5m2!1slv!2slv"
+            width="400" height="300" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <table >
 
+            <tr>
+                <th>konfektes</th>
+                <th>augļi</th>
+                <th>cepumi</th>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>43</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>56</td>
+                <td>44</td>
+            </tr>
+        </table>
         <!-- Footer -->
         <footer>
             <p>Šeit ir tukšs footers</p>
